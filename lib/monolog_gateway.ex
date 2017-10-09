@@ -1,4 +1,5 @@
 defmodule MonologGateway do
+  # require Messages
   @moduledoc """
   Documentation for MonologGateway.
   """
@@ -12,7 +13,7 @@ defmodule MonologGateway do
       :world
 
   """
-  def hello do
-    :world
+  def test do
+    Messages.Msg.new(version: :'V2')
   end
 end
