@@ -14,6 +14,6 @@ defmodule MonologGateway do
 
   """
   def test do
-    Messages.Msg.new(version: :'V2')
+    Messages.Msg.new(version: :'V2', sub: 100)
   end
 end

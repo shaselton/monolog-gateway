@@ -1,2 +1,4 @@
 %{"exprotobuf": {:hex, :exprotobuf, "1.2.9", "f3cac1b0d0444da3c72cdfe80e394d721275dc80b1d7703ead9dad9267e93822", [], [{:gpb, "~> 3.24", [hex: :gpb, repo: "hexpm", optional: false]}], "hexpm"},
-  "gpb": {:hex, :gpb, "3.27.7", "08e5502d5c9964bb66f93f634fc284aa578834ac048a86b6e63803ae85c62b1f", [], [], "hexpm"}}
+  "gpb": {:hex, :gpb, "3.27.7", "08e5502d5c9964bb66f93f634fc284aa578834ac048a86b6e63803ae85c62b1f", [], [], "hexpm"},
+  "kafka_ex": {:hex, :kafka_ex, "0.8.0", "9161968e6d5881375f0c9cac6fa7b73f25c492d2d318b15f15ea2bee897fb13d", [], [], "hexpm"},
+  "snappy": {:git, "https://github.com/fdmanana/snappy-erlang-nif", "4e3b8611b6a1ff85a417b0f2fad8886c9485810e", []}}
