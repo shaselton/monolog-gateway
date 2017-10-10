@@ -10,4 +10,5 @@ message Msg {
 
   required Version version = 2;
   optional SubMsg sub = 1;
+  optional string value = 3;
 }
